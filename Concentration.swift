@@ -15,6 +15,8 @@ class Concentration
     var score=0
     var flips=0
     
+    // this is a comment
+    
     func chooseCard(at index: Int) {
         flips+=1
         if !cards[index].isMatched {
