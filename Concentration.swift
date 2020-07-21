@@ -17,6 +17,8 @@ class Concentration
     
     // this is a comment
     
+    // this is feature1
+    
     func chooseCard(at index: Int) {
         flips+=1
         if !cards[index].isMatched {
